@@ -17,9 +17,19 @@ int main(){
 	}
 	
 	cout << "\n---------------------------------------------------\n";
+	for(linha = 0;linha < 3;linha++){
+	    
+		for(coluna = 0;coluna < 3;coluna++){
+			
+			cout << matriz[linha][coluna] << " ";
+			
+		}
+		cout << "\n";
+	}
 	cout << "Numeros Digitados Maiores que 5: \n";
 	
 	for(linha = 0;linha < 3;linha++){
+	    
 		for(coluna = 0;coluna < 3;coluna++){
 			if(matriz[linha][coluna] > 5){
 				cout << matriz[linha][coluna] << " ";
@@ -29,7 +39,7 @@ int main(){
 		}
 	}
 	if(verificar == false){
-		cout << "Nenhum numero digitado é maior que 5 !!!";
+		cout << "Nenhum numero digitado Ã© maior que 5 !!!";
 	}
 	cout << "\n\n";
 	
